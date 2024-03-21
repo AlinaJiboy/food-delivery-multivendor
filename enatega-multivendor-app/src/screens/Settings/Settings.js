@@ -434,7 +434,7 @@ function Settings(props) {
               </View>
             </TouchableOpacity>
           </View>
-          <TouchableOpacity
+          {/* <TouchableOpacity
             activeOpacity={0.7}
             onPress={() => toggleTheme()}
             style={[styles(currentTheme).notificationContainer]}>
@@ -452,7 +452,7 @@ function Settings(props) {
                 </TouchableOpacity>
               </View>
             </View>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
         <View style={styles().versionContainer}>
           <TextDefault textColor={currentTheme.statusSecondColor}>

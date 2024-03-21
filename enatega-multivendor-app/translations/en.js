@@ -90,9 +90,9 @@ export const en = {
   proceedCheckout: 'Proceed to Checkout',
   paymentText: 'How do you wish to pay?',
   checkout: 'Checkout',
-  creditCart: 'Credit Card/Debit Card',
+  creditCart: 'Credit/Debit Card',
   paypal: 'Paypal',
-  cod: 'Cash on delivery',
+  cod: 'Cash',
   thankYou: 'Thank You!',
   orderConfirmed: 'Your Order is confirmed',
   orderId: 'Your Order Id',
@@ -411,5 +411,7 @@ export const en = {
   emptyPastOrdersDesc:
     "You'll see your past orders here.",
   emptyPastOrdersBtn: "Let's order something!",
-  restaurantName:'Restaurant Name'
+  restaurantName:'Restaurant Name',
+  somethingWentWrong: 'Something went wrong',
+  checkInternet: 'Check your internet connection'
 }

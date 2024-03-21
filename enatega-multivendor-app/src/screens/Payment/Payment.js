@@ -27,6 +27,12 @@ function Payment(props) {
   const currentTheme = theme[themeContext.ThemeValue]
   const iconArray = [
     {
+      payment: 'COD',
+      label: t('cod'),
+      index: 2,
+      icon: 'dollar'
+    },
+    {
       payment: 'STRIPE',
       label: t('creditCart'),
       index: 0,
@@ -39,12 +45,7 @@ function Payment(props) {
       index: 1,
       icon: 'paypal'
     },
-    {
-      payment: 'COD',
-      label: t('cod'),
-      index: 2,
-      icon: 'dollar'
-    }
+    
   ]
 
   useFocusEffect(() => {
