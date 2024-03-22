@@ -38,12 +38,12 @@ const datas = [
     navigateTo: 'MyOrders',
     isAuth: true
   },
-  {
-    title: 'titleChat',
-    icon: 'bubble',
-    navigateTo: 'Chat',
-    isAuth: false
-  },
+  // {
+  //   title: 'titleChat',
+  //   icon: 'bubble',
+  //   navigateTo: 'Chat',
+  //   isAuth: false
+  // },
   {
     title: 'titleSettings',
     icon: 'settings',
